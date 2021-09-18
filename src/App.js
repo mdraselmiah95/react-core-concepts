@@ -11,6 +11,10 @@ const singerTwo = {
   job: "singer",
 };
 
+const singerStyle = {
+  backgroundColor: "pink",
+  color: "green",
+};
 // console.log(newNumber, singer);
 function App() {
   return (
@@ -22,7 +26,7 @@ function App() {
           <h3>EveryThing will be grate again.</h3>
           <p>My number is : {newNumber}</p>
           <p>Singer: {singer.name + " " + singer.job}</p>
-          <p>Real singer: {singerTwo.name}</p>
+          <p style={singerStyle}>Real singer: {singerTwo.name}</p>
         </div>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
