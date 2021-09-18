@@ -27,6 +27,16 @@ function App() {
           <p>My number is : {newNumber}</p>
           <p>Singer: {singer.name + " " + singer.job}</p>
           <p style={singerStyle}>Real singer: {singerTwo.name}</p>
+          <h5
+            style={{
+              color: "yellow",
+              border: "1px solid gray",
+              padding: "5px 3px",
+              borderRadius: "5px",
+            }}
+          >
+            This is another paragraph.
+          </h5>
         </div>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
