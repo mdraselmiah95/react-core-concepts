@@ -30,6 +30,7 @@ function App() {
           <h5
             style={{
               color: "yellow",
+              backgroundColor: "#7FFFD4",
               border: "1px solid gray",
               padding: "5px 3px",
               borderRadius: "5px",
